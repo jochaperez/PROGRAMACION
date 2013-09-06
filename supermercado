@@ -1,0 +1,24 @@
+// cuenta.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+
+
+void main()
+{
+	float S, precio1, precio2, precio3, cant1, cant2, cant3;
+	cout<< "ingresar precio 1:";
+	cin>>precio1;
+	cout<< "ingresar precio 2:";
+	cin>>precio2;
+	cout<< "ingresar precio 3:";
+	cin>>precio3;
+	S=precio1*cant1+precio2*cant2+precio3*cant3;
+	cout<<"el total es: "<<S;
+	getch();
+	
+}
