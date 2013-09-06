@@ -1,0 +1,24 @@
+// cuenta.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+
+
+void main()
+{
+	int B, H, A;
+	cout<< "ingresar B:";
+	cin>>B;
+	cout<< "ingresar H:";
+	cin>>H;
+	A=(B*H)/2;
+	cout<<" EL AREA ES IGUAL A ";
+	cout<<A;
+
+	getch();
+	
+}
