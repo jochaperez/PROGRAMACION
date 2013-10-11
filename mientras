@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include <iostream>
+
+
+int main()
+{
+	float n,s,c,dato,prom;
+	cout<< "ingrese la cantidad de datos";
+	cin>> n;
+	s=0;  //acumulador
+	c=0;  //contador
+	while (c<n)
+	{
+		cout<< "ingrese datos";
+	    cin>> dato;
+	    s= s+dato;
+	    c= c+1;
+	}
+	prom= s/n;
+	cout<< "escribir promedio: "<<prom;
+	getch();
+
+	return 0;
+}
